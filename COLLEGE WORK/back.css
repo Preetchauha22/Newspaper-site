@@ -1,0 +1,150 @@
+.h1{
+    font: bolder;
+    
+}
+span{
+    color: chartreuse;
+}
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    
+    padding: 1px 30px;
+    
+
+}
+ul li{
+    position: relative;
+    left: 30px;
+    color: rgb(191, 31, 31);
+    font-size: 30px;
+    font: bolder;
+}
+.items{
+    display: block;
+   text-align: center;
+padding-left: 90px;
+}
+#comp{
+    display: flex;
+}
+#QWER{
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.circket{
+    height: 200px;
+   
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.lll{
+    font-size: 50px;
+    margin-left: 100px;
+    color: red;
+}
+.QWER{
+
+
+}
+.kitu{
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#salu{
+    position: relative;
+    animation: salu 2s 1;
+}
+@keyframes salu{
+    0% {left: 0px; top: 0px;}
+    25%{left: -90px; top: -360px;}
+    50%{left: 1200px; top: 360px;}
+    75%{left: -250px; top: 0px;}
+    100%{left: 0px; top: 0px;}
+}
+#rajpal{
+    position: relative;
+    animation: rajpal 2s 1;
+}
+@keyframes rajpal{
+    0% {right: 0px; top: 0px;}
+    25%{right: -600px; top: -40px;}
+    50%{right: -100px; top: 0px;}
+    75%{right: -600px; top:-200px;}
+    100%{right: 0px; top: 0px;}
+}
+#rajkumar{
+    position: relative;
+    animation: rajkumar 2s 1;
+}
+@keyframes rajkumar{
+    0% {right: 0px; top: 0px;}
+    25%{right: -600px; top: -250px;}
+    50%{right: -100px; top: -300px;}
+    75%{right: -600px; top: 0;}
+    100%{right: 0px; top: 0px;}
+
+}
+#munni{
+    position: relative;
+    animation: munni 2s 1 ;
+}
+    @keyframes munni{
+    0% {left: 0px; top: 0px;}
+    25%{left: -600px; top: -250px;}
+    50%{left: -1200px; top: 0px;}
+    75%{left: -600px; top: -300px;}
+    100%{left: 0px; top: 0px;}
+}
+.puu{
+    width: 300px;
+    height: 200px;
+   
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.palu{
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+.lav{
+    width: 300px;
+    height: 200px;
+    
+    margin-left: 100px;
+    margin-top: 10px;  
+    display: flex;
+    flex-direction: row; 
+}
+.uup{
+    width: 300px;
+    height: 200px;
+   
+    margin-left: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+img{
+    padding-left: 100px;
+}
